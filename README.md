@@ -1,24 +1,21 @@
-# README
+6 ideas in 12 months
+-------------
+#### Project to develop 6 ideas in 12 months
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Why? 
 
-Things you may want to cover:
+To enhance, practice and learn about ruby on rails or any other framework that can be adapted to each idea
 
-* Ruby version
+#### When does it start?
 
-* System dependencies
+Not yet, but soon. 
 
-* Configuration
+#### What ideas am I going to develop? 
 
-* Database creation
+Whichever I can think of in the meantime or while coding
 
-* Database initialization
+#### Where is the progress going to be posted? 
 
-* How to run the test suite
+6ideas12months.com <- Under construction (this repository)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
