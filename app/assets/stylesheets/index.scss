@@ -1,37 +1,45 @@
 body{
-  .main-cointainer{
+  .main-screen{
     height: 100vh;
     background-color: #1a1a1a;
     color: white;
     font-family: 'Handycheera';
 
-    #selfie{
-      top: 20px;
-      height: 140px;
-      width: 140px;
-      border: 1px solid #E9ECF5; 
+    .name-container{
+      height: 70%;
+
+      #first-name{
+        margin-left: -100px;
+        font-size: 120px;
+      }
+      #selfie{
+        background-color: white;
+        margin-left: -25px;
+        height: 200px;
+        width: 200px;
+        border: 2px solid white; 
+      }
+      #last-name{
+        margin: -50px 0 0 100px;
+        font-size: 120px;
+      }
+      #web-developer{
+        color: #CC5803;
+      }
     }
 
-    #name{
-      margin-top: 20px;
-      font-size: 120px;
+    .nav-bar{
+      height: 15%;
     }
-
-    #first-last-name{
-      margin-top: -40px;
-      font-size: 120px;
-    }
-
-    #last-last-name{
-      margin-top: -40px;
-      font-size: 120px;
-    }
-
-    .social-icon{
-      margin: 5px;
-      height: 25px;
-      width: 25px;
-      border-radius: 50%;
-    }
+    
+    .footer{
+      height: 15%;
+      .social-icon{
+        margin: 5px;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+      }
+    } 
   }
 }
