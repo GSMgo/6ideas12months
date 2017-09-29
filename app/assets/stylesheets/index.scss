@@ -1,45 +1,55 @@
 body{
-  .main-screen{
-    height: 100vh;
-    background-color: #1a1a1a;
-    color: white;
-    font-family: 'Handycheera';
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Handycheera';
 
-    .name-container{
-      height: 70%;
+  .name-container{
+    height: 70%;
 
-      #first-name{
-        margin-left: -100px;
-        font-size: 120px;
-      }
-      #selfie{
-        background-color: white;
-        margin-left: -25px;
-        height: 200px;
-        width: 200px;
-        border: 2px solid white; 
-      }
-      #last-name{
-        margin: -50px 0 0 100px;
-        font-size: 120px;
-      }
-      #web-developer{
-        color: #CC5803;
-      }
+    #first-name{
+      margin-left: -100px;
+      font-size: 120px;
     }
-
-    .nav-bar{
-      height: 15%;
+    #selfie{
+      background-color: white;
+      margin-left: -25px;
+      height: 200px;
+      width: 200px;
+      border: 2px solid white; 
     }
-    
-    .footer{
-      height: 15%;
-      .social-icon{
-        margin: 5px;
-        height: 25px;
-        width: 25px;
-        border-radius: 50%;
-      }
-    } 
+    #last-name{
+      margin: -50px 0 0 100px;
+      font-size: 120px;
+    }
+    #web-developer{
+      color: #CC5803;
+    }
   }
+
+  .nav-bar{
+    height: 15%;
+
+    .blog{
+      background-color: blue;
+    }
+    .work{
+      background-color: red;
+    }
+    .contact{
+      background-color: orange;
+    }
+    .about-me{
+      background-color: purple;
+    }
+  }
+  
+  footer{
+    height: 15%;
+    .social-icon{
+      margin: 5px;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+    }
+  } 
 }

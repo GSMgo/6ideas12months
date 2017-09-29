@@ -1,5 +1,13 @@
-<div class="main-screen">
-  <div class="name-container d-flex flex-column align-items-center justify-content-center">
+<!--   <div class="name-container d-flex flex-column align-items-center justify-content-center">
+    <h1 id="first-name">Gerard
+      <img src="assets/selfie.png" class="rounded-circle" id="selfie"></img>
+    </h1>
+    <h1 id="last-name">Sandoval</h1>
+    <h5 id="web-developer">Web Developer</h5>
+  </div>  -->
+
+<div class="container-fluid">
+  <div class="text-center">
     <h1 id="first-name">Gerard
       <img src="assets/selfie.png" class="rounded-circle" id="selfie"></img>
     </h1>
@@ -7,14 +15,22 @@
     <h5 id="web-developer">Web Developer</h5>
   </div>
 
-  <div class="nav-bar d-flex justify-content-center">
-    <a href="#">About Me</a>
-    <a href="#">Blog</a>
-    <a href="#">Work</a>
-    <a href="#">Contact</a>
-  </div>
+  <nav class="row text-center nav-bar">
+    <div class="col-sm-3 col-6 blog">
+      <a href="#">Blog</a>
+    </div>
+    <div class="col-sm-3 col-6 work">
+      <a href="#">Work</a>
+    </div>
+    <div class="col-sm-3 col-6 contact">
+      <a href="#">Contact</a>
+    </div>
+    <div class="col-sm-3 col-6 about-me">
+      <a href="#">About Me</a>
+    </div>
+  </nav>
 
-  <div class="footer d-flex flex-column align-items-center justify-content-center">
+  <footer>
     <div class="social-icons">
       <a href="https://www.facebook.com/GerardoSM">
         <img src="assets/social/facebook.png" class="social-icon">
@@ -26,6 +42,5 @@
         <img src="assets/social/instagram.png" class="social-icon">
       </a>
     </div>
-  </div>
-
+  </footer>
 </div>
